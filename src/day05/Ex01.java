@@ -6,11 +6,11 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		/*
-		 ¹Ýº¹¹® 
-		 - ±ÔÄ¢ÀûÀ¸·Î °ªÀÌ º¯ÇÑ´Ù¸é ¹Ýº¹¹®À» »ç¿ëÇÒ¼ö ¾ø´Ù.
+		 ë°˜ë³µë¬¸ 
+		 - ê·œì¹™ì ìœ¼ë¡œ ê°’ì´ ë³€í•œë‹¤ë©´ ë°˜ë³µë¬¸ì„ ì‚¬ìš©í• ìˆ˜ ì—†ë‹¤.
 		 */
 		int sum = 0, i = 0;
-		//ÃÊ±â°ª ; Á¶°Ç½Ä ; Áõ°¨½Ä
+		//ì´ˆê¸°ê°’ ; ì¡°ê±´ì‹ ; ì¦ê°ì‹
 		for(i=1; i <= 10; i++ ) {
 			System.out.println(i);
 			sum = sum + i;
@@ -41,10 +41,10 @@ public class Ex01 {
 				System.out.println("k : " + k);
 			}
 		}
-		//»ç¿ëÀÚ·Î ºÎÅÍ ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ Â¦, È¦ ÃÑÇÕÀ» ±¸ÇÏ¼¼¿ä
+		//ì‚¬ìš©ìžë¡œ ë¶€í„° ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ ì§, í™€ ì´í•©ì„ êµ¬í•˜ì„¸ìš”
 		Scanner sc = new Scanner(System.in);
 		int num, evenSum = 0, oddSum = 0, allSum = 0;
-		System.out.println("¼ö ÀÔ·Â : ");
+		System.out.println("ìˆ˜ ìž…ë ¥ : ");
 		num = sc.nextInt();
 		for(int k=1; k <= num; k++) {
 			//System.out.println("k : "+k);

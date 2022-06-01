@@ -7,35 +7,35 @@ public class Quiz07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int money, num = 0;
-		System.out.print("¿ä±ÝÀ» ÅõÀÔÇÏ¼¼¿ä >>>");
+		System.out.print("ìš”ê¸ˆì„ íˆ¬ìž…í•˜ì„¸ìš” >>>");
 		money = sc.nextInt();
 		for(; ;) {
-			System.out.println("=====Ä¿ÇÇ ÀÚÆÇ±â =====");
-			System.out.println("1. Ä¿ÇÇ(200)\t 2.ÄÚÄÚ¾Æ(250)\t 3.¹ÝÈ¯\t 4.Á¾·á");
-			System.out.print("¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä >>>");
+			System.out.println("=====ì»¤í”¼ ìžíŒê¸° =====");
+			System.out.println("1. ì»¤í”¼(200)\t 2.ì½”ì½”ì•„(250)\t 3.ë°˜í™˜\t 4.ì¢…ë£Œ");
+			System.out.print("ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš” >>>");
 			num = sc.nextInt();
 			if(num == 4) {
 				break;
 			}else if((num == 1 && money < 200) || (num == 2 && money< 250) ){
-					System.out.println("¿ä±ÝÀÌ ºÎÁ·ÇÕ´Ï´Ù.\n");
+					System.out.println("ìš”ê¸ˆì´ ë¶€ì¡±í•©ë‹ˆë‹¤.\n");
 				}
 				else if(num == 1){
-					System.out.println("¸ÀÀÖ°Ô µå¼¼¿ä\n");
+					System.out.println("ë§›ìžˆê²Œ ë“œì„¸ìš”\n");
 					money -= 200;
 				}
 				else if(num == 2){
-					System.out.println("¸ÀÀÖ°Ô µå¼¼¿ä\n");
+					System.out.println("ë§›ìžˆê²Œ ë“œì„¸ìš”\n");
 					money -= 250;
 				}
 				else if(num == 3){
-					System.out.println("°Å½º¸§µ· : "+ money);
+					System.out.println("ê±°ìŠ¤ë¦„ëˆ : "+ money);
 					money = 0;
 				}
 				else{
-					System.out.println("Àß¸øÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.\n\n");
+					System.out.println("ìž˜ëª»ìž…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.\n\n");
 				}
 			}
-			System.out.println("ÇÁ·Î±×·¥ Á¾·á!!!");
+			System.out.println("í”„ë¡œê·¸ëž¨ ì¢…ë£Œ!!!");
 		
 }
 }

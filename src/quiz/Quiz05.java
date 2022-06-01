@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Quiz05 {
 
 	public static void main(String[] args) {
-		//µÎ¼ö¸¦ ÀÔ·Â¹Ş¾Æ ÀÔ·Â¹ŞÀº ¼ö »çÀÌÀÇ ÇÕÀ» ±¸ÇÏ¼¼¿ä
-				//ÀÔ·Â °ª : 1, 10 -> 55. 10, 1 -> 55
+		//ë‘ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ì…ë ¥ë°›ì€ ìˆ˜ ì‚¬ì´ì˜ í•©ì„ êµ¬í•˜ì„¸ìš”
+				//ì…ë ¥ ê°’ : 1, 10 -> 55. 10, 1 -> 55
 		
 		int num1, num2, sum = 0;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("µÎ¼öÀÔ·Â");
+		System.out.println("ë‘ìˆ˜ì…ë ¥");
 		num1 = sc.nextInt();
 		num2 = sc.nextInt();
 		int n1 =num1;
@@ -24,7 +24,7 @@ public class Quiz05 {
 			num2++;
 		}
 		System.out.println(sum);
-		System.out.println("µÎ ¼ö ÀÔ·Â");
+		System.out.println("ë‘ ìˆ˜ ì…ë ¥");
 		num1 = sc.nextInt();
 		num2 = sc.nextInt();
 		sum =0;

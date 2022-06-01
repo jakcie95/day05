@@ -6,12 +6,12 @@ public class Ex03 {
 
 	public static void main(String[] args) {
 		/*
-		break : ¹İº¹¹®, ½ºÀ§Ä¡¹®À» ºüÁ®³ª¿Ã‹š »ç¿ëÇÑ´Ù.
-		continue : ¹İº¹¹®ÀÇ À§ÂÊÀ¸·Î ¿Ã·Áº¸³»ÁØ´Ù.
+		break : ë°˜ë³µë¬¸, ìŠ¤ìœ„ì¹˜ë¬¸ì„ ë¹ ì ¸ë‚˜ì˜¬ë–„ ì‚¬ìš©í•œë‹¤.
+		continue : ë°˜ë³µë¬¸ì˜ ìœ„ìª½ìœ¼ë¡œ ì˜¬ë ¤ë³´ë‚´ì¤€ë‹¤.
 		 */
 		for(int i = 0; i < 5; i++) {
 			if(i ==3) {
-				System.out.println("if½ÇÇà");
+				System.out.println("ifì‹¤í–‰");
 				//continue;
 				break;
 			}
@@ -19,16 +19,16 @@ public class Ex03 {
 		}
 		int n1 = 10, n2 = 10;
 		if(n1 == n2) {
-			System.out.println("µÎ ¼ö´Â °°´Ù");
+			System.out.println("ë‘ ìˆ˜ëŠ” ê°™ë‹¤");
 		}
 		String s1, s2;
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¹®ÀÚ ÀÔ·Â");
+		System.out.println("ë¬¸ì ì…ë ¥");
 		s1 = sc.next();
-		System.out.println("¹®ÀÚ ÀÔ·Â");
+		System.out.println("ë¬¸ì ì…ë ¥");
 		s2 = sc.next();	
 		if(s1.equals(s2)){//(s1 == s2) {
-			System.out.println("µÎ ¹®ÀÚ´Â °°´Ù");
+			System.out.println("ë‘ ë¬¸ìëŠ” ê°™ë‹¤");
 		}
 		System.out.println( s1.equals(s2) );
 }

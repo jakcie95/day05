@@ -15,15 +15,15 @@ public class Ex02 {
 		int sum = 0;
 		i = 0;
 		while(true) {// == for(;;)
-			System.out.println("¼ö ÀÔ·Â(1~100)");
+			System.out.println("ìˆ˜ ìž…ë ¥(1~100)");
 			i = sc.nextInt();
 			if(i >= 1&& i <= 100)
 				break;
-			System.out.println("Àß¸ø ÀÔ·Â. ´Ù½Ã");
+			System.out.println("ìž˜ëª» ìž…ë ¥. ë‹¤ì‹œ");
 		}
 		for(int j=1; j<=i; j++)
 			sum+=j;
-		System.out.println("ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ ÇÕ : " +sum);
+		System.out.println("ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ í•© : " +sum);
 }
 }
 

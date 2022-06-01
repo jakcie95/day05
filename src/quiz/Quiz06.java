@@ -10,32 +10,32 @@ public class Quiz06 {
 		String id, password = null;
 		String saveId = null,savePassword = null;
 		while(true) {
-			System.out.println("1.·Î±×ÀÎ");
-			System.out.println("2.È¸¿ø°¡ÀÔ");
-			System.out.println("3.³ª°¡±â");
+			System.out.println("1.ë¡œê·¸ì¸");
+			System.out.println("2.íšŒì›ê°€ì…");
+			System.out.println("3.ë‚˜ê°€ê¸°");
 			a = sc.nextInt();
 			if(a ==3) {
-				System.out.println("ÇÁ·Î±×·¥À» Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("í”„ë¡œê·¸ë¨ì„ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 				break;
 			}
 		switch(a) {
 			case 1:
-			System.out.print("¾ÆÀÌµğ ÀÔ·Â : ");
+			System.out.print("ì•„ì´ë”” ì…ë ¥ : ");
 			id = sc.next();
-			System.out.print("ºñ¹Ğ¹øÈ£ ÀÔ·Â : ");
+			System.out.print("ë¹„ë°€ë²ˆí˜¸ ì…ë ¥ : ");
 			password = sc.next();
 			if(id.equals(saveId) && password.equals(savePassword))
-			System.out.println("ÀÎÁõ ¼º°ø !!!");
+			System.out.println("ì¸ì¦ ì„±ê³µ ");
 			else
-			System.out.println("ÀÎÁõ ½ÇÆĞ !!!");
+			System.out.println("ì¸ì¦ ì‹¤íŒ¨ ");
 			break;
 			
 			case 2:
-			System.out.print("ÀúÀåÇÒ ¾ÆÀÌµğ ÀÔ·Â : ");
+			System.out.print("ì €ì¥í•  ì•„ì´ë”” ì…ë ¥ : ");
 			saveId = sc.next();
-			System.out.print("ÀúÀåÇÒ ºñ¹Ğ¹øÈ£ ÀÔ·Â : ");
+			System.out.print("ì €ì¥í•  ë¹„ë°€ë²ˆí˜¸ ì…ë ¥ : ");
 			savePassword = sc.next();
-			System.out.print("°¡ÀÔ ¿Ï·á !!!");
+			System.out.print("ê°€ì… ì™„ë£Œ ");
 		}
 		}
 

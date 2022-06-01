@@ -5,36 +5,36 @@ import java.util.Scanner;
 public class Quiz04 {
 
 	public static void main(String[] args) {
-		//1~10»çÀÌÀÇ ¼ýÀÚ¸¸ ÀÔ·Â¹Þ¾Æ 1ºÎÅÍ ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ ÇÕÀ» ±¸ÇÏ½Ã¿À
-		//10~20»çÀÌÀÇ ¼ýÀÚ¸¸ ÀÔ·Â¹Þ¾Æ 1ºÎÅÍ ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ ÇÕÀ» ±¸ÇÏ½Ã¿À
+		//1~10ì‚¬ì´ì˜ ìˆ«ìžë§Œ ìž…ë ¥ë°›ì•„ 1ë¶€í„° ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ í•©ì„ êµ¬í•˜ì‹œì˜¤
+		//10~20ì‚¬ì´ì˜ ìˆ«ìžë§Œ ìž…ë ¥ë°›ì•„ 1ë¶€í„° ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ í•©ì„ êµ¬í•˜ì‹œì˜¤
 		Scanner sc = new Scanner(System.in);
 		int i =0;
 		int sum = 0;
 		while(true) {
-			System.out.println("¼ýÀÚ ÀÔ·Â(1~10) : ");
+			System.out.println("ìˆ«ìž ìž…ë ¥(1~10) : ");
 			i = sc.nextInt();
 			if(i >= 1 && i <= 10) 
 				break;
-			System.out.println("Àß¸ø ÀÔ·Â ÇÏ¼Ì½À´Ï´Ù. ´Ù½Ã");
+			System.out.println("ìž˜ëª» ìž…ë ¥ í•˜ì…¨ìŠµë‹ˆë‹¤. ë‹¤ì‹œ");
 			}
 		for(int j =0; j <= i; j++) {
 			sum= sum+=j;
 		}
-		System.out.println("ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ ÇÕ : " +sum);
+		System.out.println("ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ í•© : " +sum);
 		
 		int k =0;
 		int sum1 = 0;
 		while(true) {
-			System.out.println("¼ýÀÚ ÀÔ·Â(10~20) : ");
+			System.out.println("ìˆ«ìž ìž…ë ¥(10~20) : ");
 			k = sc.nextInt();
 			if(k >= 10 && k <= 20) 
 				break;
-			System.out.println("Àß¸ø ÀÔ·Â ÇÏ¼Ì½À´Ï´Ù. ´Ù½Ã");
+			System.out.println("ìž˜ëª» ìž…ë ¥ í•˜ì…¨ìŠµë‹ˆë‹¤. ë‹¤ì‹œ");
 			}
 		for(int e =0; e <= k; e++) {
 			sum1= sum1+=e;
 		}
-		System.out.println("ÀÔ·Â¹ÞÀº ¼ö±îÁöÀÇ ÇÕ : " +sum1);
+		System.out.println("ìž…ë ¥ë°›ì€ ìˆ˜ê¹Œì§€ì˜ í•© : " +sum1);
 		
 		
 }
